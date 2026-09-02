@@ -1,0 +1,4 @@
+*.ova
+*.ova.sha256
+dist/
+.DS_Store

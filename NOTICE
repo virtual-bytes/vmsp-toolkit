@@ -1,0 +1,22 @@
+VirtualBytes VMSP Toolkit — Assurance Edition
+Copyright (c) 2026 Tommy Grot. Licensed under the MIT License (see LICENSE).
+
+Independent project. Not affiliated with or endorsed by Broadcom, VMware,
+DISA, or the US Department of Defense.
+
+THIRD-PARTY CONTENT NOT COVERED BY THE MIT LICENSE
+
+The compliance pack (files/opt/toolkit/compliance/) includes requirement
+identifiers, titles, check guidance, discussion, and fix text derived from
+the DISA Kubernetes Security Technical Implementation Guide (STIG), a
+publication of the US Defense Information Systems Agency distributed at
+https://public.cyber.mil/stigs/. That content is a work of the United States
+Government and is not licensed by this project; the MIT grant above applies
+to the toolkit's own code, evaluators, and documentation. STIG content is
+reproduced for the purpose of evaluating and reporting compliance; DISA
+remains the authoritative source, and operators should verify findings
+against the current benchmark release.
+
+Software installed into the appliance at build time (Photon OS, Trivy,
+kubectl, and other packages fetched by scripts/install-tools.sh) is
+distributed under its own licenses and is not part of this repository.
