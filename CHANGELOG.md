@@ -3,6 +3,26 @@
 All notable changes to the VMSP Toolkit Appliance. Each release ships as a
 new OVA on the [Releases](../../releases) page with a SHA256 checksum.
 
+## v3.0.1 — first public 3.0 release
+
+- One product name, **VMSP Toolkit** (the Assurance Edition name is gone)
+- Container topology redesigned: one card per namespace, services linked to
+  the workloads they select, problems first, hover to trace, search, no
+  overlapping labels
+- Worker rightsizing follows a worker rollout live: stage, what is happening
+  right now, old and new workers, drains and the PodDisruptionBudgets holding
+  them, and a release that never cordons a node
+- VCF Infrastructure pages: SDDC Manager, vCenter, NSX and ESXi checks for
+  time and DNS, certificate and password expiry, backups, platform health,
+  upgrade readiness and a hardening baseline
+- Known issues show the lines that matched; diagnose explains pods that have
+  already gone
+- `tdnf update` no longer breaks the web UI (issue #1)
+- Cleaner interface in both light and dark themes
+- Requires vSphere 9 (virtual hardware version 22)
+
+Full notes: [RELEASE-NOTES-3.0.1.md](RELEASE-NOTES-3.0.1.md)
+
 ## v1.0.0 — first public release
 
 **Appliance**
